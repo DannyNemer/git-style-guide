@@ -4,7 +4,6 @@ The very early beginnings of a Git style guide.
 1. Commit summaries should be in imperative present tense.
 1. Commit summaries should be limited to 50 characters.
 1. Commit descriptions should be wrapped to 72 characters.
-1. Commits descriptions should have a blank line between paragraphs and bullets.
 1. Commits descriptions bullets hsould be properly indented.
 
   ```shell
@@ -17,6 +16,29 @@ The very early beginnings of a Git style guide.
   - text text text text text text text text text text text text text text
     text text text text text text text text text text text text text text
     text text text text text text text text text text text text text text
+  ```
+1. Use blank lines between paragraphs and bullets and commit descriptions.
+
+  ```shell
+  # Bad
+  Lorem ipsum dolor sit amet, morbi pede, et vulputate commodo, arcu gravida:
+  - Condimentum massa mauris viverra id egestas taciti, augue arcu quia vel
+    ornare id enim, consectetuer velit odio parturient erat varius risus,
+    ultricies tristique lacinia non vivamus, condimentum sit sem.
+  - Diam at duis suspendisse ipsum, leo est vestibulum dui aliquam, enim wisi,
+    varius arcu, quam morbi cursus quia lacinia per. Ac tellus sit integer et,
+    tortor rutrum velit, molestie purus.
+
+  # Good
+  Lorem ipsum dolor sit amet, morbi pede, et vulputate commodo, arcu gravida:
+
+  - Condimentum massa mauris viverra id egestas taciti, augue arcu quia vel
+    ornare id enim, consectetuer velit odio parturient erat varius risus,
+    ultricies tristique lacinia non vivamus, condimentum sit sem.
+
+  - Diam at duis suspendisse ipsum, leo est vestibulum dui aliquam, enim wisi,
+    varius arcu, quam morbi cursus quia lacinia per. Ac tellus sit integer et,
+    tortor rutrum velit, molestie purus.
   ```
 
 1. Use backticks for source variable, function, and type names.

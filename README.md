@@ -1,10 +1,10 @@
 # Git Style Guide
 The very early beginnings of a Git style guide.
 
-1. Commit summaries should be in imperative present tense.
-1. Commit summaries should be limited to 50 characters.
-1. Commit descriptions should be wrapped to 72 characters.
-1. Commits descriptions bullets hsould be properly indented.
+1. Write commit summaries in imperative present tense.
+1. Limit commit summaries to 50 characters in length.
+1. Wrap commit descriptions to 72 characters.
+1. Properly indent bullets in commit descriptions.
 
   ```shell
   # Bad
@@ -93,6 +93,7 @@ The very early beginnings of a Git style guide.
   ```
 
 1. When referencing a function in a commit message, prepend the function's name with the class name.
+
   ```shell
   # Bad
   Refactor `logError()`
@@ -111,7 +112,7 @@ The very early beginnings of a Git style guide.
   Refactor `dantil.logError()`
   ```
 
-1. When adding a new function, state only "Add <function_name>" as the commit summary, but a description of the function in the commit description. Use the full indicative-mood function description for the commit description.
+1. When adding a new function, state only "Add <function_name>" as the commit summary and include a description of the function in the commit description. Use the full indicative-mood function description for the commit description.
 
   ```shell
   # Bad

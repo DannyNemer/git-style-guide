@@ -8,15 +8,19 @@ The very early beginnings of a Git style guide.
 
   ```shell
   # Bad
-  - text text text text text text text text text text text text text text
-  text text text text text text text text text text text text text text
-  text text text text text text text text text text text text text text
+  - Lorem ipsum dolor sit amet, morbi pede, et vulputate commodo, arcu
+  gravida. Condimentum massa mauris viverra id egestas taciti, augue arcu
+  quia vel ornare id enim, consectetuer velit odio parturient erat varius
+  risus, ultricies tristique lacinia non vivamus, condimentum sit sem.
 
   # Good
-  - text text text text text text text text text text text text text text
-    text text text text text text text text text text text text text text
-    text text text text text text text text text text text text text text
+  - Lorem ipsum dolor sit amet, morbi pede, et vulputate commodo, arcu
+    gravida. Condimentum massa mauris viverra id egestas taciti, augue
+    arcu quia vel ornare id enim, consectetuer velit odio parturient erat
+    varius risus, ultricies tristique lacinia non vivamus, condimentum sit
+    sem.
   ```
+
 1. Use blank lines between paragraphs and bullets and commit descriptions.
 
   ```shell
@@ -55,10 +59,10 @@ The very early beginnings of a Git style guide.
 
   ```shell
   # Bad
-  Add "dantil.js"
+  Add dantil.js
 
   # Bad
-  Add dantil.js
+  Add "dantil.js"
 
   # Good
   Add 'dantil.js'

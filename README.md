@@ -2,7 +2,7 @@
 The very early beginnings of a Git style guide.
 
 1. Write commit summaries in imperative present tense.
-  ```shell
+  ```perl
   # Bad
   Added test cases
 
@@ -13,7 +13,7 @@ The very early beginnings of a Git style guide.
   Add test cases
   ```
 1. Write commit descriptions in indicative present tense.
-  ```shell
+  ```perl
   # Bad
   cli: Refactor `forEach()`
 
@@ -33,7 +33,7 @@ The very early beginnings of a Git style guide.
 1. Wrap commit descriptions to 72 characters.
 1. Properly indent bullets in commit descriptions.
 
-  ```shell
+  ```perl
   # Bad
   - Lorem ipsum dolor sit amet, morbi pede, et vulputate commodo, arcu
   gravida. Condimentum massa mauris viverra id egestas taciti, augue arcu
@@ -50,7 +50,7 @@ The very early beginnings of a Git style guide.
 
 1. Use blank lines between paragraphs and bullets and commit descriptions.
 
-  ```shell
+  ```perl
   # Bad
   Lorem ipsum dolor sit amet, morbi pede, et vulputate commodo, arcu gravida:
   - Condimentum massa mauris viverra id egestas taciti, augue arcu quia vel
@@ -74,7 +74,7 @@ The very early beginnings of a Git style guide.
 
 1. Use backticks for source variable, function, and type names.
 
-  ```shell
+  ```perl
   # Bad
   Do not use Array with for loops
 
@@ -84,7 +84,7 @@ The very early beginnings of a Git style guide.
 
 1. Use single quotes for file names.
 
-  ```shell
+  ```perl
   # Bad
   Add dantil.js
 
@@ -97,7 +97,7 @@ The very early beginnings of a Git style guide.
 
 1. Use single quotes for strings.
 
-  ```shell
+  ```perl
   # Bad
   Set name of `user` to "danny"
 
@@ -107,25 +107,25 @@ The very early beginnings of a Git style guide.
 
 1. Use double quotes for strings representing input.
 
-  ```shell
+  ```perl
   Handle queries for "People who are not dead"
   ```
 
 1. When renaming or moving a file, use `git mv`, not just `mv`, and ensure there are no other changes in the contents of the files as the whole file will be marked as new regardless. Use `--follow` when using `git log` or other commands on the renamed file in the future. Use the following syntax when renaming or moving a file.
 
-  ```shell
+  ```perl
   Rename 'danny-util.js' → 'dantil.js'
   ```
 
 1. When renaming a public variable or function, requiring refactoring across several files, make that change a single commit. Use the following syntax:
 
-  ```shell
+  ```perl
   Rename `dantil.printError()` → `dantil.logError()`
   ```
 
 1. When referencing a function in a commit message, prepend the function's name with the class name.
 
-  ```shell
+  ```perl
   # Bad
   Refactor `logError()`
 
@@ -135,7 +135,7 @@ The very early beginnings of a Git style guide.
 
 1. When referencing a function in a commit message, use backticks and parenthesis (irrespective of the number of the function's parameters).
 
-  ```shell
+  ```perl
   # Bad
   Refactor `dantil.logError`
 
@@ -145,7 +145,7 @@ The very early beginnings of a Git style guide.
 
 1. When adding a new function, state only "Add <function_name>" as the commit summary and include a description of the function in the commit description. Use the full indicative-mood function description for the commit description.
 
-  ```shell
+  ```perl
   # Bad
   Add `dantil.logError()` to print errors
 

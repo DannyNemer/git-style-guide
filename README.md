@@ -2,6 +2,16 @@
 The very early beginnings of a Git style guide.
 
 1. Write commit summaries in imperative present tense.
+  ```shell
+  # Bad
+  Added test cases
+
+  # Bad
+  Adds test cases
+
+  # Good
+  Add test cases
+  ```
 1. Write commit descriptions in indicative present tense.
   ```shell
   # Bad

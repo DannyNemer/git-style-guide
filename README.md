@@ -2,6 +2,23 @@
 The very early beginnings of a Git style guide.
 
 1. Write commit summaries in imperative present tense.
+1. Write commit descriptions in indicative present tense.
+  ```shell
+  # Bad
+  cli: Refactor `forEach()`
+
+  Defined `forEach()` as an `Array` method instead of a global function.
+
+  # Bad
+  cli: Refactor `forEach()`
+
+  Define `forEach()` as an `Array` method instead of a global function.
+
+  # Good
+  cli: Refactor `forEach()`
+
+  Defines `forEach()` as an `Array` method instead of a global function.
+  ```
 1. Limit commit summaries to 50 characters in length.
 1. Wrap commit descriptions to 72 characters.
 1. Properly indent bullets in commit descriptions.

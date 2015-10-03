@@ -105,12 +105,6 @@ The very early beginnings of a Git style guide.
   Set name of `user` to 'danny'
   ```
 
-1. Use double quotes for strings representing input.
-
-  ```perl
-  Handle queries for "People who are not dead"
-  ```
-
 1. When renaming or moving a file, use `git mv`, not just `mv`, and ensure there are no other changes in the contents of the files as the whole file will be marked as new regardless. Use `--follow` when using `git log` or other commands on the renamed file in the future. Use the following syntax when renaming or moving a file.
 
   ```perl

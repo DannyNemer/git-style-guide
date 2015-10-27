@@ -1,7 +1,8 @@
 # Git Style Guide
-The very early beginnings of a Git style guide.
+The beginnings of a Git style guide.
 
 1. Write commit summaries in imperative present tense.
+
   ```perl
   # Bad
   Added test cases
@@ -12,7 +13,9 @@ The very early beginnings of a Git style guide.
   # Good
   Add test cases
   ```
+
 1. Write commit descriptions in indicative present tense.
+
   ```perl
   # Bad
   cli: Refactor `forEach()`
@@ -29,6 +32,7 @@ The very early beginnings of a Git style guide.
 
   Defines `forEach()` as an `Array` method instead of a global function.
   ```
+
 1. Limit commit summaries to 50 characters in length.
 1. Wrap commit descriptions to 72 characters.
 1. Properly indent bullets in commit descriptions.
@@ -105,7 +109,7 @@ The very early beginnings of a Git style guide.
   Set name of `user` to 'danny'
   ```
 
-1. When renaming or moving a file, use `git mv`, not just `mv`, and ensure there are no other changes in the contents of the files as the whole file will be marked as new regardless. Use `--follow` when using `git log` or other commands on the renamed file in the future. Use the following syntax when renaming or moving a file.
+1. When renaming or moving a file, use `git mv` instead of plain `mv`, and ensure there are no other changes in the file(s) contents as the whole file will be marked as new regardless. Use `--follow` when using `git log` on the renamed file in the future. Use the following syntax for commit summaries when renaming or moving a file.
 
   ```perl
   Rename 'danny-util.js' → 'dantil.js'
@@ -125,6 +129,9 @@ The very early beginnings of a Git style guide.
 
   # Good
   Refactor `dantil.logError()`
+
+  # Good
+  Remove use of `Array.prototype.slice()`
   ```
 
 1. When referencing a function in a commit message, use backticks and parenthesis (irrespective of the number of the function's parameters).

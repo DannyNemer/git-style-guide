@@ -115,13 +115,13 @@ The beginnings of a Git style guide.
   Rename 'danny-util.js' → 'dantil.js'
   ```
 
-1. When renaming a public variable or function, requiring refactoring across several files, make that change a single commit. Use the following syntax:
+1. When renaming a public variable or method that requires refactoring across several files, make that change a single commit. Use the following syntax:
 
   ```perl
   Rename `dantil.printError()` → `dantil.logError()`
   ```
 
-1. When referencing a function in a commit message, prepend the function's name with the class name.
+1. When referencing a method in a commit message, prepend its name with the class name.
 
   ```perl
   # Bad
@@ -134,7 +134,7 @@ The beginnings of a Git style guide.
   Remove use of `Array.prototype.slice()`
   ```
 
-1. When referencing a function in a commit message, use backticks and parenthesis (irrespective of the number of the function's parameters).
+1. When referencing a function or method in a commit message, enclose in backticks and include parenthesis (irrespective of the number of the function's parameters).
 
   ```perl
   # Bad
@@ -144,7 +144,7 @@ The beginnings of a Git style guide.
   Refactor `dantil.logError()`
   ```
 
-1. When adding a new function, state only "Add <function_name>" as the commit summary and include a description of the function in the commit description. Use the full indicative-mood function description for the commit description.
+1. When committing the addition of a function or method, phrase the commit summary as "Add <function_name>" and include a description of the function in the commit description. Use the full indicative-mood function description for the commit description.
 
   ```perl
   # Bad

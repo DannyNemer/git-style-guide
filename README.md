@@ -1,7 +1,7 @@
 # Git Style Guide
 The beginnings of a Git style guide.
 
-1. Write commit summaries in imperative present tense.
+1. Phrase commit summaries in imperative present tense.
 
   ```perl
   # Bad
@@ -14,7 +14,7 @@ The beginnings of a Git style guide.
   Add test cases
   ```
 
-1. Write commit descriptions in indicative present tense.
+1. Phrase commit descriptions in indicative present tense.
 
   ```perl
   # Bad
@@ -52,7 +52,7 @@ The beginnings of a Git style guide.
     sem.
   ```
 
-1. Use blank lines between paragraphs and bullets and commit descriptions.
+1. Separate paragraphs and list items by a blank in the commit descriptions.
 
   ```perl
   # Bad

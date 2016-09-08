@@ -52,7 +52,7 @@ The beginnings of a Git style guide.
     sem.
   ```
 
-1. Separate paragraphs and list items by a blank in the commit descriptions.
+1. Separate paragraphs and list items by a blank line in commit descriptions.
 
   ```perl
   # Bad

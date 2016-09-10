@@ -52,7 +52,7 @@ The beginnings of a Git style guide.
     sem.
   ```
 
-1. Separate paragraphs and list items by a blank line in commit descriptions.
+1. Separate paragraphs and list items with a blank line in commit descriptions.
 
   ```perl
   # Bad
@@ -134,7 +134,7 @@ The beginnings of a Git style guide.
   Remove use of `Array.prototype.slice()`
   ```
 
-1. When referencing a function or method in a commit message, enclose in backticks and include parenthesis (irrespective of the number of the function's parameters).
+1. When referencing a function or method in a commit message, enclose in backticks and include parenthesis (irrespective of arity).
 
   ```perl
   # Bad

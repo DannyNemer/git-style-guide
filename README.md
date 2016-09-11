@@ -109,7 +109,7 @@ The beginnings of a Git style guide.
   Set name of `user` to 'danny'
   ```
 
-1. When renaming or moving a file, use `git mv` instead of plain `mv`, and ensure there are no other changes in the file(s) contents as the whole file will be marked as new regardless. Use `--follow` when using `git log` on the renamed file in the future. Use the following syntax for commit summaries when renaming or moving a file.
+1. When renaming or moving a file, use `git mv` instead of plain `mv`, and omit changes to the file contents because the whole file is marked new regardless. Use `--follow` with `git log` on the renamed file in the future. Use the following syntax for commit summaries when renaming or moving a file.
 
   ```perl
   Rename 'danny-util.js' → 'dantil.js'

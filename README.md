@@ -115,7 +115,7 @@ The beginnings of a Git style guide.
   Rename 'danny-util.js' → 'dantil.js'
   ```
 
-1. When renaming a public variable or method that requires refactoring across several files, make that change a single commit. Use the following syntax:
+1. When renaming a public variable or method that requires refactoring across several files, consolidating the refactoring in a single, solitary commit with the following syntax:
 
   ```perl
   Rename `dantil.printError()` → `dantil.logError()`

@@ -134,7 +134,7 @@ The beginnings of a Git style guide.
   Remove use of `Array.prototype.slice()`
   ```
 
-1. When referencing a function or method in a commit message, enclose in backticks and include parenthesis (irrespective of arity).
+1. When referencing a function or method in a commit message, enclose in backticks and include parentheses (irrespective of arity).
 
   ```perl
   # Bad
